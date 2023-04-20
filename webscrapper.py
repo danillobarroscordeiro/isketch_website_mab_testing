@@ -19,17 +19,17 @@ for click in range(clicks):
         if np.random.random() < 0.3:
             driver.find_element( 'name', 'yescheckbox').click()
             driver.find_element('id', 'yesbtn').click()
-            time.sleep(1)
+            time.sleep(0.5)
         else:
             driver.find_element( 'name', 'nocheckbox').click()
             driver.find_element('id', 'nobtn').click()
-            time.sleep(1)
+            time.sleep(0.5)
     else:
         if np.random.random() < 0.35:
             driver.find_element( 'name', 'yescheckbox').click()
             driver.find_element('id', 'yesbtn').click()
-            time.sleep(1)
+            time.sleep(0.5)
         else:
             driver.find_element( 'name', 'nocheckbox').click()
             driver.find_element('id', 'nobtn').click()
-            time.sleep(1)
+            time.sleep(0.5)
